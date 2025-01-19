@@ -29,7 +29,7 @@ Robot-Car-Racing-Competition/
 │   ├── videos/
 │   └── images/
 │
-├── Task2_LiDAR_Stop/
+├── Task2_task2_obstacle_avoidance/
 │   ├── task2_lidar_stop.py
 │   ├── README.md
 │   ├── videos/
@@ -62,7 +62,7 @@ The robot uses a camera to follow a line created using sheets of paper (describe
 
 ---
 
-### Task 2: LiDAR-Based Stopping
+### Task 2: LiDAR-Based Stopping (obstacle_avoidance)
 The robot uses a LiDAR sensor to detect obstacles and stop 20 cm in front of them. This feature works seamlessly while the robot is following the line from Task 1.
 
 **Hardware Used**: Raspberry Pi 4, LiDAR Sensor
