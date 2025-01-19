@@ -1,13 +1,14 @@
 # Robot Car Racing Competition
 
 ## Overview
-The **Robot Car Racing Competition** is a subject as part of the Master's program in Mechatronics and Embedded System at RWU (Ravensburg-Weingarten University of Applied Sciences). This project was guided and supervised by **Mr. Tobias Niederman**. 
+The **Robot Car Racing Competition** is a subject as part of the Master's program in Mechatronics and Embedded System at RWU (Ravensburg-Weingarten University of Applied Sciences). This project was guided and supervised by **Mr. Tobias Niedermaier**. 
 
-The primary objective of this course is to design and program an autonomous robot car capable of solving a series of tasks using computer vision, LiDAR sensors, and embedded systems. 
+The primary objective of this course is to design and program an autonomous robot car capable of solving a series of tasks using computer vision, LiDAR and Camera sensors, and embedded systems. 
 
 ### Authors
 - **Vardhan Mistry**
 - **Rajveersinh Suratiya**
+- **Hardik Rathwa**
 
 ---
 
@@ -128,4 +129,4 @@ Each task folder contains a `README.md` file with detailed instructions for runn
 ---
 
 ## Acknowledgements
-We express our gratitude to **Mr. Tobias Niederman** for his guidance and support throughout this project. The course provided invaluable experience in robotics, computer vision, and sensor integration.
+We express our gratitude to **Mr. Tobias Niedermaier** for his guidance and support throughout this project. The course provided invaluable experience in robotics, computer vision, and sensor integration.
