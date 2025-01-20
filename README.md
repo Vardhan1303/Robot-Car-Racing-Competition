@@ -53,19 +53,35 @@ Robot-Car-Racing-Competition/
 
 ---
 
+### 🛠️ Common Hardware Requirements
+
+- Raspberry Pi 4  
+- Pi Camera or compatible USB camera  
+- RPLidar sensor (e.g., RPLidar A1/A2)  
+- Motor driver (e.g., L298N)  
+- DC motors and chassis  
+- Power supply and wiring  
+
+---
+
+### 💻 Common Software Requirements
+
+- Python 3.x  
+- OpenCV library  
+- RPi.GPIO library  
+- Adafruit RPLidar library  
+
+---
+
 ## General Description of Tasks
 
 ### Task 1: Line Following
 The robot uses a camera to follow a line created using sheets of paper (described in `Line.pdf`). The algorithm processes the camera feed, detects the line, and adjusts the robot's movement to stay on track. Thresholds for line detection were fine-tuned for optimal performance in H216.
 
-**Hardware Used**: Raspberry Pi 4, Camera
-
 ---
 
 ### Task 2: LiDAR-Based Stopping (obstacle_avoidance)
 The robot uses a LiDAR sensor to detect obstacles and stop 20 cm in front of them. This feature works seamlessly while the robot is following the line from Task 1.
-
-**Hardware Used**: Raspberry Pi 4, LiDAR Sensor
 
 ---
 
@@ -76,8 +92,6 @@ The robot detects and moves towards green and red cubes, stopping at different d
 
 If no cubes are visible, the robot remains stationary. If both cubes are visible, the robot moves toward the closer one.
 
-**Hardware Used**: Raspberry Pi 4, Camera
-
 ---
 
 ### Task 4: ArUco Marker Cube Detection
@@ -86,8 +100,6 @@ The robot detects cubes marked with ArUco markers (6x6 ID 0 and ID 1) and stops 
 - 40 cm for ID 1
 
 Similar to Task 3, if both markers are visible, the robot approaches the closer one.
-
-**Hardware Used**: Raspberry Pi 4, Camera
 
 ---
 
