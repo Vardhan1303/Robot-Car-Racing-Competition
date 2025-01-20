@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/fe28e438-9fb0-4d97-bebc-e88871e27043
 
 To better understand the flow of the robot's logic, refer to the flowchart below:
 
-<img src="images/flowchart.drawio" alt="Flowchart" width="600"/>  
+<img src="images/flowchart2.drawio.png" alt="Flowchart" width="600"/>  
 
 ---
 
