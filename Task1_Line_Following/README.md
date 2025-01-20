@@ -30,11 +30,7 @@ This task involves programming the robot to follow a line created using sheets o
 
 ### Video
 
-[Click here to watch the performance](https://github.com/user-attachments/assets/90679093-3f74-4f93-aafb-94e851244fa7)
-<video width="700" controls>
-  <source src="https://github.com/user-attachments/assets/90679093-3f74-4f93-aafb-94e851244fa7" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/90679093-3f74-4f93-aafb-94e851244fa7
 
 ### Images
 
