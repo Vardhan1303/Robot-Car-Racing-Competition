@@ -1,38 +1,73 @@
-# Task 1: Line Following
+# 🚗 Line-Following Robot with Raspberry Pi and OpenCV
 
-## Description
-This task involves programming the robot to follow a line created using sheets of paper (as shown in `Line.pdf`). The robot uses a camera to detect the line and adjusts its movement to stay on track.
+This project showcases a line-following robot powered by a Raspberry Pi, a camera, and OpenCV. The robot uses real-time video feed to detect a line and adjusts its motor speeds dynamically to stay on track. This is an essential task for autonomous navigation systems.
 
-## Algorithm Overview
-1. Capture live video feed from the camera.
-2. Apply color or edge detection to identify the line.
-3. Determine the deviation of the line from the center and adjust motor speed/direction accordingly.
-4. Fine-tuned thresholds ensure stability and accuracy in the H216 environment.
+---
 
-## Hardware and Tools
-- Raspberry Pi 4
-- Camera
-- Python (OpenCV)
+## 📋 Table of Contents
 
-## How to Run
-1. Place the line pattern (from `Line.pdf`) on the floor.
-2. Navigate to the folder:
-   ```bash
-   cd Task1_Line_Following
-    ```
-3. Run the script:
-   ```bash
-   python3 task1_line_following.py
-    ```
-4. Observe the robot as it follows the line.
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Setup and Execution](#setup-and-execution)
+- [How It Works](#how-it-works)
+- [Results](#results)
+---
 
-## Performance
+## 📝 Project Overview
 
-### Video
+The robot leverages:
+- **Camera Feed**: To capture the environment and detect the line.
+- **Motor Control**: To adjust speeds for precise navigation.
+- **Line-Following Logic**: Using OpenCV's image processing for line detection and feedback control.
+
+---
+
+## 🌟 Features
+
+- Real-time line detection and tracking.
+- Dynamic motor speed adjustments using error-correction logic.
+- Responsive behavior for maintaining the track.
+- Customizable parameters for fine-tuning.
+
+---
+
+## ⚙️ How It Works
+
+1. **Line Detection**:
+   - Captures live video feed from the camera.
+   - Converts the image to grayscale and applies binary thresholding.
+   - **Threshold value**: `60` (modifiable in the code).
+   - Identifies contours in the binary image to detect the line.
+
+2. **Error Correction**:
+   - Calculates deviation of the line's center from the frame's midpoint using moments.
+   - Adjusts motor speeds dynamically using proportional control.
+   - **Proportional gain (`Kp`)**: `0.035` (modifiable in the code).
+
+3. **Motor Control**:
+   - GPIO controls for motor directions.
+   - PWM signals adjust motor speeds for smooth navigation.
+
+## 🎥 Results
+
+### Video Demonstration
 
 https://github.com/user-attachments/assets/90679093-3f74-4f93-aafb-94e851244fa7
 
-### Images
+### Sample Images
 
-- **Robot Following the Line**
+#### Line Detection:
 <img src="images/lane_detection.jpg" alt="Line Detection" width="500"/>
+
+#### Robot Following the Line:
+<img src="images/robot_following_line.jpg" alt="Robot Following Line" width="500"/>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+💡 **Pro Tip**: Modify the PID constants (`Kp`) and threshold parameters to adapt the robot to different lighting conditions or line widths.
