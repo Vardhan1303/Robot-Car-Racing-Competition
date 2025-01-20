@@ -31,9 +31,12 @@ This task involves programming the robot to follow a line created using sheets o
 ### Video
 
 [Click here to watch the performance](videos/lane_detection.mp4)
+<video width="700" controls>
+  <source src="videos/lane_detection.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Images
 
-- Robot Following the Line
-
-![Line Detection](images/lane_detection.jpg)
+- **Robot Following the Line**
+<img src="images/lane_detection.jpg" alt="Line Detection" width="500"/>
