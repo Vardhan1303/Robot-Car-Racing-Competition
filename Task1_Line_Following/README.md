@@ -30,10 +30,10 @@ This task involves programming the robot to follow a line created using sheets o
 
 ### Video
 
-[Click here to watch the performance](Task1_Line_Following/videos/lane_detection.mp4)
+[Click here to watch the performance](videos/lane_detection.mp4)
 
 ### Images
 
 - Robot Following the Line
 
-![Line Detection](Task1_Line_Following/images/lane_detection.jpg)
+![Line Detection](images/lane_detection.jpg)
