@@ -144,7 +144,7 @@ If both markers are visible, the robot targets the closer marker!
 
 ## 🏆 **Acknowledgements**
 Huge thanks to **Mr. Tobias Niedermaier** for his invaluable guidance and support throughout this project. The course provided amazing learning opportunities in **robotics**, **computer vision**, and **sensor integration**.
-```
+
 
 ---
 
