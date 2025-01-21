@@ -1,23 +1,23 @@
-# 🚫 License
+# License
 
-This project is part of the **Robot Car Racing Competition** within the Master's program in **Mechatronics and Embedded Systems** at **Ravensburg-Weingarten University of Applied Sciences (RWU)**. The purpose of this project is to **study and apply academic knowledge** in the fields of **robotics**, **computer vision**, and **sensor integration**.
+The following modified MIT License applies to this repository:
 
-## 📜 Usage Terms
+## Copyright
 
-By accessing this repository, you agree to the following conditions:
+Copyright (c) 2025 by Vardhan Mistry, Rajveersinh Suratiya, Hardik Rathwa.
 
-1. **Academic Use Only**: This project is intended for **academic** and **educational** purposes only. **Commercial use** or any form of **redistribution** is strictly prohibited.
+## Permission
 
-2. **No Redistribution of Images & Photos**: The images, videos, and photos shared in this repository are **not available for redistribution** or **download** for private or personal use. They are part of the academic work carried out for the learning purpose.
+Permission is hereby granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the following conditions:
 
-3. **Acknowledgement of the Guide**: This project was completed under the supervision of **Mr. Tobias Niedermaier**.
+1. **Academic Use Only**: The Software may only be used for **academic** and **educational purposes**. **Commercial use** is prohibited.
 
-4. **Non-Commercial Use**: You are free to use the code for **personal academic projects**, but **commercial use** of this work is **prohibited**.
+2. **No Redistribution of Images & Photos**: The images, videos, and photos included in this repository are part of the academic work and may not be redistributed, used for private or personal purposes, or downloaded outside of the scope of this academic project.
 
-5. **Modification Rights**: You may modify the code for **educational** or **research purposes** as long as you credit the original authors and **do not use it commercially**.
+3. **Modification Rights**: You are permitted to modify the Software for **educational** or **research purposes** only. Any modified versions of the Software may not be used for commercial purposes.
 
----
+4. **Acknowledgement**: This project was completed under the supervision of **Mr. Tobias Niedermaier**. You must provide appropriate credit when using or modifying the Software for academic purposes.
 
-## ⚖️ Copyright
+## Disclaimer
 
-The contents of this repository, including the code, documentation, images, and videos, are copyright of the authors (Vardhan Mistry, Rajveersinh Suratiya, Hardik Rathwa) and are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
