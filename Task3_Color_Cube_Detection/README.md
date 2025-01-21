@@ -36,7 +36,7 @@ The robot is programmed to:
 
 ## 🚀 Setup and Execution
 
-1. **Hardware Assembly**: Connect the motors, camera, and motor driver to the Raspberry Pi as per the wiring diagram.
+1. **Hardware Assembly**: Connect the motors, camera, and motor driver to the Raspberry Pi.
 2. **Clone the Repository**
 3. **Run the Script**
 4. **Test the Robot**:  
@@ -45,15 +45,28 @@ The robot is programmed to:
 
 ---
 
+## 🔄 Flowchart
+
+To better understand the flow of the robot's logic, refer to the flowchart below:
+
+<img src="images/algorithm_flowchart.png" alt="Flowchart" width="600"/>  
+
 ## ⚙️ How It Works
 
 ### **Cube Detection**
 - **Color Filtering**: Converts the camera feed to HSV and applies color masks for red and green.
 - **Contour Detection**: Identifies contours in the filtered image to locate the cubes.
 - **Distance Estimation**: Calculates distance based on the area of the cube's contour using:
-  \[
-  \text{Distance} = \frac{\text{Focal Length} \times \text{Known Size}}{\sqrt{\text{Contour Area}}}
-  \]
+
+Distance = (Focal Length × Known Size) / √(Contour Area)
+
+### Sample Images
+
+#### Red Cube:
+<img src="images/red_cube.jpg" alt="Line Detection" width="500"/>
+
+#### Robot detecting and showing distance:
+<img src="images/red_green_detect.jpg" alt="Detecting and showing distance" width="500"/>
 
 ### **Motor Control**
 - **Forward and Backward Movement**: Uses PWM signals to control motor speed and direction.
@@ -68,8 +81,15 @@ The robot is programmed to:
 ## 🎥 Results
 
 ### **Video Demonstration**
-[Watch the robot in action!](https://github.com/user-attachments/assets/cube-tracking-demo)
 
+#### Working of algorithm in Raspberry pi and robot is stopping at 20 cm for green cube
+[Working of algorithm in Raspberry pi and robot is stopping at 20 cm for green cube!](https://github.com/user-attachments/assets/3814c0a8-199d-4a54-a0aa-03248634928b)
+
+#### Red Cube stopping at approximately 40 cm
+[Red Cube stopping at approximately 40 cm](https://github.com/user-attachments/assets/51b9ab9b-85e7-4e0d-b187-7f8b5028f39e)
+
+#### Green Cube stopping at approximately 25 cm
+[Green Cube stopping at approximately 25 cm](https://github.com/user-attachments/assets/e8f8f1fb-b622-4b52-bfdc-5e576bc7b2b7)
 ---
 
 ## 📄 License
