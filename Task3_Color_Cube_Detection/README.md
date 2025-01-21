@@ -8,9 +8,11 @@ This project involves a Raspberry Pi-powered robot capable of identifying, track
 - [Overview](#overview)  
 - [Features](#features)  
 - [Setup and Execution](#setup-and-execution)  
-- [How It Works](#how-it-works)  
+- [Flowchart](#flowchart)        
+- [How It Works](#how-it-works)      
+- [Images](#images)  
 - [Results](#results)  
-- [License](#license)  
+
 
 ---
 
@@ -60,14 +62,6 @@ To better understand the flow of the robot's logic, refer to the flowchart below
 
 Distance = (Focal Length × Known Size) / √(Contour Area)
 
-### Sample Images
-
-#### Red Cube:
-<img src="images/red_cube.jpg" alt="Line Detection" width="500"/>
-
-#### Robot detecting and showing distance:
-<img src="images/red_green_detect.jpg" alt="Detecting and showing distance" width="500"/>
-
 ### **Motor Control**
 - **Forward and Backward Movement**: Uses PWM signals to control motor speed and direction.
 - **Proportional Feedback**: Adjusts motor speeds to correct lateral deviations for accurate tracking.
@@ -75,6 +69,16 @@ Distance = (Focal Length × Known Size) / √(Contour Area)
 ### **Decision Logic**
 - Stops at **20 cm** for green cubes and **40 cm** for red cubes.
 - Prioritizes the closer cube if both are visible.
+
+---
+
+## Sample Images
+
+#### Red Cube:
+<img src="images/red_cube.jpg" alt="Line Detection" width="500"/>
+
+#### Robot detecting and showing distance:
+<img src="images/red_green_detect.jpg" alt="Detecting and showing distance" width="500"/>
 
 ---
 
@@ -86,10 +90,11 @@ Distance = (Focal Length × Known Size) / √(Contour Area)
 [Working of algorithm in Raspberry pi and robot is stopping at 20 cm for green cube!](https://github.com/user-attachments/assets/3814c0a8-199d-4a54-a0aa-03248634928b)
 
 #### Red Cube stopping at approximately 40 cm
-[Red Cube stopping at approximately 40 cm](https://github.com/user-attachments/assets/51b9ab9b-85e7-4e0d-b187-7f8b5028f39e)
+[Red Cube stopping at approximately 40 cm!](https://github.com/user-attachments/assets/51b9ab9b-85e7-4e0d-b187-7f8b5028f39e)
 
 #### Green Cube stopping at approximately 25 cm
-[Green Cube stopping at approximately 25 cm](https://github.com/user-attachments/assets/e8f8f1fb-b622-4b52-bfdc-5e576bc7b2b7)
+[Green Cube stopping at approximately 25 cm!](https://github.com/user-attachments/assets/22cb0eb0-ce4c-4482-978b-fed690ab95ea)
+
 ---
 
 ## 📄 License
