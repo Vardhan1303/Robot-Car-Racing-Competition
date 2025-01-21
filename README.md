@@ -62,7 +62,7 @@ Robot-Car-Racing-Competition/
 - **DC Motors** and chassis  
 - **Power Supply** and wiring  
 
-https://github.com/user-attachments/assets/3c43a49a-134f-49a8-8f70-118f94a426a9
+https://github.com/user-attachments/assets/0271f348-8bbe-43eb-9ca3-3706eaa3ae32
 
 ---
 
